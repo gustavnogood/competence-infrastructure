@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"location": {
+			"value": "westeurope"
+		},
+		"env": {
+			"value": "test"
+		},
+		"baseName": {
+			"value": "OP-Competence"
+		},
+		"repositoryUrl": {
+            "value": "https://github.com/yourusername/yourrepository" 
+        },
+        "branch": {
+            "value": "master"
+        },
+        "repositoryToken": {
+            "value": "insertyourrepotokenhere"
+        },
+		"appLocation": {
+            "value": "/"
+        },
+        "apiLocation": {
+            "value": ""
+        },
+        "appArtifactLocation": {
+            "value": "src"
+        }
+	}
+}
